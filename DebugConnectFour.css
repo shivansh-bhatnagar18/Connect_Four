@@ -14,9 +14,9 @@ body
 	float:left;
 	border-radius:5%;
 	
-	
 
-    margin: 0 auto;
+    margin-top: 50px;
+	margin-left: 150px;
     display: flex;
     flex-wrap: wrap;
 
@@ -28,7 +28,9 @@ body
 	background-color:#FFB9AC;
 	border: 5px solid black;
 	border-radius:5%;
-	text-align: center
+	text-align: center;
+	margin-right: 50px;
+	margin-top:55px;
 	
 	
 }
