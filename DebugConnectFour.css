@@ -1,20 +1,36 @@
 body
 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
     text-align:center;
+	background-color:#FEE5E0;
 }
 #board
 {
     height: 540px;
     width: 630px;
 
-    background-color:navy;
+    background-color:#698FC4;
     border:10px solid black;
+	float:left;
+	border-radius:5%;
+	
+	
 
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 
+}
+#rules
+{
+	height: 560px;
+	width: 345px;
+	background-color:#FFB9AC;
+	border: 5px solid black;
+	border-radius:5%;
+	text-align: center
+	
+	
 }
 .tile
 {
@@ -22,15 +38,15 @@ body
     width: 70px;
     margin: 5px;
 
-    background-color: white;
+    background-color:#FEE5E0;
     border-radius: 50%;
     border: 5px solid black;
 }
 .red-piece
 {
-    background-color: red;
+    background-color: #FB4F4F;
 }
 .yellow-piece
 {
-    background-color: yellow;
+    background-color: #FFB959;
 }
