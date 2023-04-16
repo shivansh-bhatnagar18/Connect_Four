@@ -30,9 +30,24 @@ body
 	border-radius:5%;
 	text-align: center;
 	margin-right: 50px;
-	margin-top:55px;
-	
-	
+	margin-top:55px;	
+}
+.button
+{
+  background-color: #FEE5E0;
+    border: 2px solid black;  
+  border-radius: 12px;
+  padding: 20px 300px;
+  margin-top: 5px;
+  margin-left: 20px;
+  transition-duration: 0.4s;
+  font-size: 24px;
+
+}
+.button:hover
+{
+    background-color: #FFB9AC;
+    color: #FEE5E0;
 }
 .tile
 {
