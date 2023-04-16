@@ -1,3 +1,5 @@
+@media screen and (min-width:1920px)
+{
 body
 {
     font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -41,7 +43,7 @@ body
   margin-top: 5px;
   margin-left: 20px;
   transition-duration: 0.4s;
-  font-size: 24px;
+  font-size:
 
 }
 .button:hover
@@ -66,4 +68,74 @@ body
 .yellow-piece
 {
     background-color: #FFB959;
+}}
+@media screen and (min-width:321px)and (max-width:639px)
+{
+    body
+{
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-align:center;
+	background-color:#FEE5E0;
+}
+#board
+{
+    height: 540px;
+    width: 630px;
+
+    background-color:#698FC4;
+    border:10px solid black;
+	border-radius:5%;
+	
+
+    margin-top: 50px;
+	margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#rules
+{
+	height: 560px;
+	width: 345px;
+	background-color:#FFB9AC;
+	border: 5px solid black;
+	border-radius:5%;
+	text-align: center;
+	
+}
+.button
+{
+  background-color: #FEE5E0;
+    border: 2px solid black;  
+  border-radius: 12px;
+  padding: 20px 300px;
+  
+  transition-duration: 0.4s;
+  font-size:
+
+}
+.button:hover
+{
+    background-color: #FFB9AC;
+    color: #FEE5E0;
+}
+.tile
+{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    background-color:#FEE5E0;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.red-piece
+{
+    background-color: #FB4F4F;
+}
+.yellow-piece
+{
+    background-color: #FFB959;
+}
+
 }
